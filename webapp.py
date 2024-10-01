@@ -11,8 +11,8 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from feature_engine.encoding import OneHotEncoder as fe_OneHotEncoder
 
-CLIENT_ID = '44e889b5f36f4da49f3abfaec8d5dba2'
-CLIENT_SECRET = 'e6c5d8615afc46349a572570abbf211d'
+CLIENT_ID = 'SPOTIFY_CLIENT_ID'
+CLIENT_SECRET = 'SPOTIFY_CLIENT_SECRET'
 
 
 AUTH_URL = 'https://accounts.spotify.com/api/token'
